@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+       
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#appointments">Appointments</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Welcome to Our Hospital</h1>
+      <p>Providing exceptional healthcare services for all.</p>
+      <a href="#appointments" class="btn">Make an Appointment</a>
+    </div>
+  </header>
+
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-list">
+        <div class="service-item">
+          <img src="9.jpg" alt="Service 1">
+          <h3>Service 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="service-item">
+          <img src="7.jpg" alt="Service 2">
+          <h3>Service 2</h3>
+          <p>Nullam auctor dolor eget nisi efficitur ultricies.</p>
+        </div>
+        <div class="service-item">
+          <img src="n.png" alt="Service 3">
+          <h3>Service 3</h3>
+          <p>Etiam quis mauris nec justo molestie semper.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="doctors">
+    <div class="container">
+      <h2>Our Doctors</h2>
+      <div class="doctors-list">
+        <div class="doctor-item">
+          <img src="11.png" alt="Doctor 1">
+          <h3>Dr. John Doe</h3>
+          <p>Specialty: Cardiology</p>
+        </div>
+        <div class="doctor-item">
+          <img src="11.png" alt="Doctor 2">
+          <h3>Dr. Jane Smith</h3>
+          <p>Specialty: Pediatrics</p>
+        </div>
+        <div class="doctor-item">
+          <img src="11.png" alt="Doctor 3">
+          <h3>Dr. Michael Johnson</h3>
+          <p>Specialty: Neurology</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="appointments">
+    <div class="container">
+      <h2>Book an Appointment</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input type="tel" placeholder="Phone Number">
+        <select>
+          <option value="" selected disabled>Select a Doctor</option>
+          <option value="John Doe">Dr. John Doe</option>
+          <option value="Jane Smith">Dr. Jane Smith</option>
+          <option value="Michael Johnson">Dr. Michael Johnson</option>
+        </select>
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Hospital Management. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
