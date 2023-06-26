@@ -9,12 +9,6 @@ The admin of an organization wanted to deliver HTML content on a static website.
 3. Enabling static website hosting by uploading index.html content
 4. Testing and verifying the hosted content
 
-## Resource visualizer(Architect Diagram)
-
-![ss](./Architect Diagram.png)
-
-## Services
-
 ## Deployment steps and Screenshot
 
 ### To deploy this project run ,
@@ -22,8 +16,6 @@ The admin of an organization wanted to deliver HTML content on a static website.
 #### 1.Create an S3 bucket Set permissions section, uncheck the box of Block all public access
 
 #### 2.In the properties of S3 bucket, configure the S3 bucket to enable Static website hosting
-
-#### 3.In the properties of S3 bucket, configure the S3 bucket to enable Static website hosting
 
 #### 4.Configure permissions in S3 and add below bucket policy to give read only access to the static web app endpoint
 

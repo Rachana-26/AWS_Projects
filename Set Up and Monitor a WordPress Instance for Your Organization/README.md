@@ -12,7 +12,7 @@ Your organization publishes blogs and provides documentation services for other 
 2. Create an AMI of the WordPress instance
 3. Configure Auto Scaling to launch a new WordPress instance
 4. Configure the new WordPress instance to shut down automatically
-
+ 
 ## Services
 
 CloudFormation,Auto Scaling,Ec2intance(AMI image)

@@ -8,7 +8,7 @@ Monitoring is important to keep an eye on the performance of an EC2 instance. It
 1.  EC2 instance
 2.  Cloudwatch CPU utilitztion
 3.  Alarm is set to CPU is high
-4.  IAM group and Users
+4.  IAM group and Users 
 
 ## Resource visualizer(Architect Diagram)
 

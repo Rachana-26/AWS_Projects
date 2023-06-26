@@ -6,7 +6,7 @@ organization wants to deploy a new multi-tier application. The application will 
 
 1. vpc and Ec2 created
 2. RDS with VPC security group
-3. Apache Web Server installed and connected to database
+3. Apache Web Server installed and connected to database 
 
 ## Resource visualizer(Architect Diagram)
 
